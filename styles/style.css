@@ -31,7 +31,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 0px 200px 200px ;
+    background-color: #FFF8F3;
 }
 
 nav ul li{
@@ -83,9 +84,9 @@ nav ul{
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat  ;
-    background-position: top left, bottom  right;
+    background-position: center  left, bottom  right;
     background-color: #FFF8F3;
-    margin: 0%;
+    /* margin: 0%; */
 }
 
 /* About Section  */
@@ -93,7 +94,7 @@ nav ul{
 .about-me-block{
     text-align: center;
     background-color: #FFF8F3 ;
-    margin: 230px 130px 230px 130px  ;
+    margin: 330px 230px 330px 230px  ;
     padding: 156px 131px 157px 131px;
 }
 .about-me-contents{
@@ -113,3 +114,23 @@ nav ul{
     font-weight: 800;
 }
 
+/* What I Do  */
+.what-i-do{
+    text-align: center;
+    margin: 230px 230px 0px 230px  ;
+    font-size: 35px;
+}
+
+.card-block{
+    display: flex;
+    margin: 0px 230px 0px 230px  ;
+    gap: 24px;
+    
+    
+}
+
+.card{
+    padding: 30px;  
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
