@@ -172,3 +172,37 @@ nav ul {
 .summary-column-h3{
     font-size: 30px;
 }
+
+/* footer  */
+.footer-bg{
+
+background-color: #FFF8F3;
+
+}
+
+.footer-bg{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer input[type="submit"]{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    border: none;
+    color: #FFFFFF;
+    padding: 18px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+}
